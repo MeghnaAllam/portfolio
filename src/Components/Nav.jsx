@@ -32,7 +32,7 @@ const Nav = ({ isDarkMode, handleToggle }) => {
       <div className={`header ${!isDarkMode ?'light' : ''}`}>
         <h1>
           <Link activeClass="active" to="home" spy={true} smooth={true} offset={-80} duration={500}>
-            Favour
+            MA
           </Link>
         </h1>
         
@@ -43,9 +43,9 @@ const Nav = ({ isDarkMode, handleToggle }) => {
           <div className='large'>
             {nav}
           </div>
-          <div className={`theme-switch ${!isDarkMode ?'light' : ''}`} onClick={handleToggle} >
+          {/* <div className={`theme-switch ${!isDarkMode ?'light' : ''}`} onClick={handleToggle} >
             {isDarkMode ? <FaMoon /> : <FaSun />}
-          </div>
+          </div> */}
         </div>
       </div>
       <div className='small' style={{

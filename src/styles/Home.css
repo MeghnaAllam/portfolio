@@ -15,6 +15,15 @@
 	font-size: calc(1vw + 3rem);
 	height: auto;
 }
+.mydiv {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 1fr;
+}
+
+/* .my-img {
+	flex-direction: column;
+} */
 
 .gradientText {
 	width: fit-content;
@@ -74,7 +83,14 @@
 	background: var(--gradient);
 	margin-right: 10px;
 }
-
+.my-img {
+	display: flex;
+	flex-direction: column;
+	min-width: 50px;
+	width: 300px;
+	height: 350px;
+	min-height: auto;
+}
 .btn2 {
 	width: 150px;
 	border: double 2px transparent;
@@ -103,6 +119,7 @@
 @media only screen and (max-width: 900px) and (min-width: 800px) {
 	.home {
 		padding-top: 8rem;
+
 	}
 
 	.home-text h1 span:last-of-type span:last-of-type {
@@ -118,13 +135,22 @@
 	.home-text .react-typewriter-text {
 		line-height: 1.6rem;
 	}
+	.my-img {
+		display: flex;
+		/* min-width: 50px; */
+		width: 190px;
+		height: 190px;
+		min-height: auto;
+	}
 }
 
 @media only screen and (max-width: 800px) and (min-width: 600px) {
 	.home {
 		padding-top: 8rem;
 	}
-
+	.my-img {
+		display: none;
+	}
 	.home-text h1 span:last-of-type span:last-of-type {
 		left: 280px;
 		top: 145px;
@@ -136,7 +162,9 @@
 	.home {
 		padding-top: 10rem;
 	}
-
+	.my-img {
+		display: none;
+	}
 	.home-text h1 span:last-of-type span:last-of-type {
 		left: 200px;
 		top: 155px;
@@ -156,7 +184,7 @@
 	}
 
 	.btn1 {
-		width: 90px;
+		width: 120px;
 	}
 
 	.btn2 {
@@ -170,5 +198,8 @@
 		left: 63px;
 		width: 150px;
 		transform: rotate(20deg);
+	}
+	.my-img {
+		display: none;
 	}
 }

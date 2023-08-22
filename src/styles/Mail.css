@@ -132,7 +132,18 @@
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
-
+.paragraph-withme {
+	padding: 5em;
+}
+#btn-mail-me{
+	padding: 1rem;
+}
+.mail-me {
+	padding-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .btn {
 	cursor: pointer;
 	background-color: #6253e8;

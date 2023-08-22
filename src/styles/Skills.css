@@ -51,8 +51,7 @@
 .html:hover {
 	--skill-color: #f1662a;
 }
-.css:hover,
-.ts:hover {
+.css:hover {
 	--skill-color: #1572b6;
 }
 .react:hover {
@@ -61,8 +60,8 @@
 .node:hover {
 	--skill-color: #539e43;
 }
-.fig:hover {
-	--skill-color: #a259ff;
+.git:hover {
+	--skill-color: #bd2c00;
 }
 .mon:hover {
 	--skill-color: #41a247;
@@ -70,7 +69,15 @@
 .fire:hover {
 	--skill-color: #eeab37;
 }
+.java:hover {
+	--skill-color: #5382a1;
+}
 
+@media only screen and (max-width: 800px){
+	:root {
+		--container-width: 500px;
+	}
+}
 @media only screen and (max-width: 600px) {
 	:root {
 		--container-width: 500px;

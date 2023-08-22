@@ -2,7 +2,10 @@ import React from 'react'
 
 import '../styles/Skills.css'
 
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiFigma, SiMongodb, SiFirebase, SiTypescript, SiNextdotjs } from 'react-icons/si'
+import { DiJava } from "react-icons/di";
+
+
+import { SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiGit, SiFigma, SiMongodb, SiFirebase, SiTypescript, SiNextdotjs } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -13,14 +16,6 @@ const Skills = () => {
           <SiJavascript />
           <p>JavaScript</p>
         </div>
-        <div className="ts">
-          <SiTypescript />
-          <p>TypeScript</p>
-        </div>
-        <div >
-          <SiNextdotjs />
-          <p>Next JS</p>
-        </div>
         <div className="html">
           <SiHtml5 />
           <p>HTML</p>
@@ -29,25 +24,25 @@ const Skills = () => {
           <SiCss3 />
           <p>CSS</p>
         </div>
+        <div className="git">
+          <SiGit />
+          <p>GitHub</p>
+        </div>
         <div className="react">
           <SiReact />
           <p>React</p>
+        </div>
+        <div className="java">
+          <DiJava />
+          <p>Java</p>
         </div>
         <div className="node">
           <SiNodedotjs />
           <p>Node JS</p>
         </div>
-        <div className="fig">
-          <SiFigma />
-          <p>Figma</p>
-        </div>
         <div className="mon">
           <SiMongodb />
           <p>MongoDB</p>
-        </div>
-        <div className="fire">
-          <SiFirebase />
-          <p>Firebase</p>
         </div>
       </div>
     </div>

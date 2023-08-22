@@ -9,7 +9,7 @@
 	min-width: var(--project-width);
 	max-width: var(--project-width);
 	border-radius: var(--border-radius);
-	padding: 1.5rem;
+	padding: 1rem;
 	margin: 0 2rem 2rem 0;
 	position: relative;
 }
@@ -72,6 +72,8 @@
 	display: grid;
 	place-items: center;
 	margin-bottom: 1rem;
+	text-align: center;
+	place-items: center;
 }
 
 .open {

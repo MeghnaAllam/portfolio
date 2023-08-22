@@ -5,20 +5,25 @@ import '../styles/Projects.css';
 const Projects = () => {
   const projectsInfo = {
     one: {
-      name: 'Project 1',
-      desc: 'congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed',
-      liveLink: 'website url',
+      name: 'FurEver Home',
+      desc: 'FurEver Home',
       githubLink: 'https://github.com/',
-      techs: ['HTML', 'CSS', 'TypeScript'],
-      isOpenSource: true
+      techs: ['JavaFX', 'OOPs', 'MySQL'],
+      isOpenSource: false
     },
     two: {
-      name: 'Project 2',
+      name: 'Revive',
       desc: 'congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed',
-      liveLink: 'website url',
+      githubLink: 'https://github.com/',
+      techs: ['React', 'Node', 'MongoDB','Express.js', 'Redux', 'SASS'],
+      isOpenSource: false
+    },
+    three: {
+      name: 'Workout Buddy',
+      desc: 'congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed',
       githubLink: 'https://github.com/',
       techs: ['React', 'Node', 'MongoDB', 'Socket.io', 'Redux'],
-      isOpenSource: true
+      isOpenSource: false
     }
   }
   return (
@@ -27,6 +32,7 @@ const Projects = () => {
       <div>
         <Project info={projectsInfo.one} />
         <Project info={projectsInfo.two} />
+        <Project info={projectsInfo.three} />
       </div>
     </div>
   )

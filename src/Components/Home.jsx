@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-
+import beautiful from '../images/beautiful.jpg';
 import '../styles/Home.css'
 
 import TypeWriterEffect from 'react-typewriter-effect';
@@ -12,12 +12,7 @@ const Home = () => {
   const arrayOfWords = ['Tap again', 'Helllo', 'You found this', 'I added this...', 'because it seemed cool', `so here's something`, 'did you know that...', `You can't breathe and talk.`, 'the earth is 71% water.', `It snows in the Sahara Desert
 `,]
   const textContent = useRef();
-  const handleDownload = () => {
-    saveAs(
-      "google drive url",
-      "Resume.pdf"
-    )
-  }
+
 
   const handleChange = () => {
     textContent.current.style.display = 'inline-block';
@@ -41,7 +36,7 @@ const Home = () => {
       <div className="home-text">
         <h1>
           <span className='gradientText'>
-            Hi, I'm Lorem!
+            Hi, I'm Meghna!
           </span>
           <span>
             <span onClick={handleChange}>
@@ -56,21 +51,26 @@ const Home = () => {
           cursorColor="#1da1f2"
           multiText={[
             'Web Developer',
-            "Don't Forget to Scroll"
+            "Software Engineer",
+            "Cloud Enthusiast"
           ]}
           multiTextLoop={true}
           multiTextDelay={1500}
           typeSpeed={35}
         />
         <div className="btns">
-          <Link className='btn1' activeClass="active" to="mail" spy={true} smooth={true} offset={0} duration={500}>
+          {/* <Link className='btn1' activeClass="active" to="mail" spy={true} smooth={true} offset={0} duration={500}>
             Hire Me
-          </Link>
+          </Link> */}
 
-          <div onClick={handleDownload} className='btn2'>View Resume</div>
+          <a target="_blank" href="https://drive.google.com/file/d/1ed64bf-YlNxBBmZp3n61cdEYuhm_JYG8/view?usp=sharing"  className='btn1'>View Resume</a>
         </div>
       </div>
-
+      <div className="mydiv">
+      <div>          
+            <img class="my-img" alt="beautiful" src={beautiful}></img>
+            </div>
+            </div>
     </div >
   )
 }
