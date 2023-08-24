@@ -50,7 +50,7 @@ const Home = () => {
         <TypeWriterEffect
           cursorColor="#1da1f2"
           multiText={[
-            'Web Developer',
+            'Full Stack Developer',
             "Software Engineer",
             "Cloud Enthusiast"
           ]}

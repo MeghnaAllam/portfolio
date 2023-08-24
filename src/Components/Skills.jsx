@@ -5,7 +5,7 @@ import '../styles/Skills.css'
 import { DiJava } from "react-icons/di";
 
 
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiGit, SiFigma, SiMongodb, SiFirebase, SiTypescript, SiNextdotjs } from 'react-icons/si'
+import { SiJavascript, SiHtml5, SiCss3, SiReact, SiGithub, SiNodedotjs, SiGit, SiFigma, SiMongodb, SiFirebase, SiTypescript, SiNextdotjs } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -26,6 +26,10 @@ const Skills = () => {
         </div>
         <div className="git">
           <SiGit />
+          <p>Git</p>
+        </div>
+        <div className="github">
+          <SiGithub />
           <p>GitHub</p>
         </div>
         <div className="react">

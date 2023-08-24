@@ -46,7 +46,7 @@
 }
 
 .social div a {
-	background-color: var(--social-main-color);
+	cursor: pointer;
 	text-decoration: none;
 	text-align: center;
 	color: white;
@@ -58,8 +58,8 @@
 	overflow: hidden;
 }
 
-.insta {
-	--social-main-color: rgb(193, 53, 132);
+.mail {
+	--social-main-color: rgb(193, 42, 65);
 }
 
 .git {

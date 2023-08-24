@@ -6,23 +6,23 @@ const Projects = () => {
   const projectsInfo = {
     one: {
       name: 'FurEver Home',
-      desc: 'FurEver Home',
-      githubLink: 'https://github.com/',
+      desc: 'The FurEverHome app offers a holistic solution aimed at tackling the issues individuals encounter when trying to adopt animals from nearby animal shelters, rescue groups, or private pet owners. The central concept involves developing an easy-to-use and instinctive platform that effectively links potential pet adopters with their perfect animal companions.',
+      githubLink: 'https://github.com/meghnaaallam/FurEverHome.git',
       techs: ['JavaFX', 'OOPs', 'MySQL'],
       isOpenSource: false
     },
     two: {
       name: 'Revive',
-      desc: 'congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed',
-      githubLink: 'https://github.com/',
+      desc: 'Developed a full stack web application that allows users to journal their thoughts on an everyday basis. It also provides motivational quotes, daily affirmations, focus state and other resources for good mental health',
+      githubLink: 'https://github.com/meghnaaallam/Revive.git',
       techs: ['React', 'Node', 'MongoDB','Express.js', 'Redux', 'SASS'],
       isOpenSource: false
     },
     three: {
       name: 'Workout Buddy',
-      desc: 'congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed',
-      githubLink: 'https://github.com/',
-      techs: ['React', 'Node', 'MongoDB', 'Socket.io', 'Redux'],
+      desc: 'A Full stack application to track your workouts',
+      githubLink: 'https://github.com/meghnaaallam/workout-buddy.git',
+      techs: ['React', 'Node', 'MongoDB', 'TailWind CSS', 'Redux'],
       isOpenSource: false
     }
   }

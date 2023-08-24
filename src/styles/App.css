@@ -60,6 +60,12 @@ h2 {
 	transition: all 0.5s;
 }
 
+.footer-text {
+	color: #fff;
+	font-size:x-small;
+	text-align: center;
+}
+
 @media only screen and (max-width: 800px) {
 	.App > div {
 		padding-left: 2.5rem;

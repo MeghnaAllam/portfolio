@@ -31,17 +31,17 @@ function App() {
       </div>
       <div className={`dark ${!isDarkMode ?'light' : ''}`}>
         <Fade fraction={.2} triggerOnce>
-          <Projects />
-        </Fade>
-        <Fade fraction={.2} triggerOnce>
-          <Socials />
-        </Fade>
-        <Fade fraction={.2} triggerOnce>
-          <About />
+        <About />
         </Fade>
         <Fade fraction={.2} triggerOnce>
           <Skills />
         </Fade>
+        <Fade fraction={.2} triggerOnce>
+        <Projects />
+        </Fade>
+        {/* <Fade fraction={.2} triggerOnce>
+          <Socials />
+        </Fade> */}
       </div>
       <div>
         <Fade fraction={.2} triggerOnce>
@@ -50,7 +50,7 @@ function App() {
       </div>
       <div className={`dark ${!isDarkMode ?'light' : ''}`}>
         <Fade fraction={.2} triggerOnce>
-          <p>Thank you for scrolling💘</p>
+          <p className='footer-text'>© 2022 All Rights Reserved.  <a className='footer-text' href="https://github.com/Dun-sin/template-portfolio.git" target='_blank'> Forked from Dun-sin </a></p>
           <div className='arrow' onClick={() => animateScroll.scrollToTop()}>
             <CgArrowLongUp />
           </div>
